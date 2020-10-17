@@ -1,3 +1,6 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  array.size do [i]
+    if array[i]==value_to_find
+      array[i]
+  end
 end
